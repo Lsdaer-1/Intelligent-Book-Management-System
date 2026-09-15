@@ -1,0 +1,19 @@
+# Example configuration only. Keep real tokens in a local, ignored file.
+version: "2"
+
+authtoken: YOUR_NGROK_AUTHTOKEN
+tunnels:
+  esp32main:
+    proto: http
+    addr: 8080
+    subdomain: esp32main-tony
+
+  esp32cam:
+    proto: http
+    addr: 8081
+    subdomain: esp32cam-tony
+
+  esp32rail:
+    proto: http
+    addr: 8082
+    subdomain: esp32rail-tony

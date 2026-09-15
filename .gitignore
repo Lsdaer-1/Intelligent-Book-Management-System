@@ -1,0 +1,14 @@
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+**/secrets.h
+**/credentials.h
+**/myconfig.h
+**/config.local.h
+ngrok.local.yml
+
+# Local runtime artifacts
+__pycache__/
+*.py[cod]
+.DS_Store
